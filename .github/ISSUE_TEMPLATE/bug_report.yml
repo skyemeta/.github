@@ -1,0 +1,26 @@
+name: Bug report
+description: Something does not work as documented.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Never paste a license key, API key, private key or seed phrase here. Security issues go through Report a vulnerability on the Security tab, not an issue.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Smallest code that shows it
+      render: ts
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      placeholder: "@skyemeta/skyegate 0.4.7, Next.js 15, Node.js 22"
+    validations:
+      required: true
