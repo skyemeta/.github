@@ -28,7 +28,13 @@ For anything larger than a small fix, open an issue first so we can agree on the
 4. Update the README or examples if the change affects how the package is used.
 5. Describe what changed and why in the pull request.
 
-By contributing, you agree that your contribution is licensed under the repository's license (MIT for every repository here).
+## Licensing
+
+By contributing, you agree that your contribution is licensed under that repository's license (MIT for every repository here today).
+
+## What is open source, and what is not
+
+The code in these repositories is open source under its license. The services it connects to are not: the SkyeGate license and verification service, the AgentTalk service at skyemeta.com, and InsumerAPI, which Skye Meta builds on. Using those services needs a license, credits or an API key, and is governed by the [Skye Meta Terms](https://skyemeta.com/terms/) or, for InsumerAPI, by [its own terms](https://insumermodel.com/terms-of-service/). A contribution to a repository here grants no rights in those services.
 
 ## Questions
 
